@@ -1,9 +1,6 @@
 body {
 background-color: #f9f7fe;
-font-family: "Montserrat", serif;
-font-optical-sizing: auto;
-font-weight: <weight>;
-font-style: normal;
+font-family: "Roboto", sans-serif;
 }
 
 a{
@@ -54,12 +51,12 @@ justify-content: space-between;
 
 .weather-app-city{
  margin: 0;
- font-size: 38px;
+ font-size: 30px;
  line-height: 48px;   
 }
 
 .weather-app-details{
-    font-size: 16px;
+    font-size: 13px;
     color: rgba(39, 33, 66, 0.4);
     line-height: 24px;
     font-weight: 500;
@@ -74,18 +71,18 @@ color: #f65282;
 }
 
 .weather-app-icon{
-    font-size: 44px;
-    margin-top: 22px;
+    width: 88px;
+    height: 88px;
 }
 
 .weather-app-temperature{
-    font-size: 88px;
-    margin-left: 10px;
+    font-size: 58px;
+    line-height: 88px;
     font-weight: bold;
 }
 
 .weather-app-unit{
-    margin-top: 16px;
+    margin-top: 6px;
     font-size: 28px;
 }
 
